@@ -1,153 +1,245 @@
-102. [Akirav,2011]	
-Akirav, Irit. "The role of cannabinoids in modulating emotional and non-emotional memory processes in the hippocampus." Frontiers in behavioral neuroscience 5 (2011).
-	REVIEW of cannabinoids
-		I. Physiology
-			1. "eCBs are synthesized ìon demandî at the post-synaptic sites of neurons after an increase in neural activity and calcium ion influx, and are then released into the synaptic cleft. 
-				Their main function appears to be the suppression of neurotransmitter release from the presynapse. 
-				Thus, eCBs act as retrograde neurotransmitters, modulating other neurotransmitter systems."
-			2. most concentrated in DG, CA3, CA1
-			3. more on INs than pyr. cells. Thus they depress GABA/inhib effects more than Glut/excit effects
-			4. WIN 55,212-2 is common CB1 receptor agonist (simm. to THC), while AM251 is antagonist	
-		II. CB agonists impair learning & memory
-			1. huge amount of behavioral tasks showed that CBs impair learning & memory
-			2. these studies have been done both on CBs administered systematically & only to hippocampus
-			3. mentions that in Deadwyler,2000 study, these effects also had decreased MFR
-		III. CBs inhibit learnin & memory by impairing LTP
-			1. "Cannabinoids appear to work [inhibit plasticity] by reducing glutamate release below the level needed to activate N-Methyl-d-aspartate (NMDA) receptors 
-				that are required for LTP and LTD (Shen et al., 1996; Misner and Sullivan, 1999). CB1 receptors are capable of regulating both inhibitory and excitatory 
-				neurotransmitter release in the hippocampus and are thus capable of exerting subtle control over synaptic plasticity.
-		IV. CBs & emotional memory
-			1. "Hence, the results of Marsicano et al. (2002) and subsequent investigations demonstrate that inhibition of eCB transmission robustly inhibits (or prolongs) fear extinction. 
-				Conversely, stimulation of eCB transmission accelerates fear extinction."
-			2. fear extinction is suggested to be the dominant problem in phobias & PTSD
-		V. CB effects on stress & anxiety
-			1. ECs block raises stress. In small doses EC admin. reduces stress. In high doses, EC admin. raises stress. Thus BIPHASIC responce
-				-note these studies have been done w/ several ECs & THC is the WORST one 
-			2. a possible  reasons for biphasic responce is	lack of administered EC specificity to relevant systems. Ie, in larger amounts it effects different & bad systems.
-		
-	103. [Hampson,1998]
-Hampson, Robert E., and Sam A. Deadwyler. "Role of cannabinoid receptors in memory storage." Neurobiology of disease 5.6 (1998): 474-482.
-	REVIEW of Hampson's work on cannabinoids effects of DNMS task. See also Davies, pg 1001
-		I. Hippo & memory - suggests hippo not as important in nonspatial memory like DNMS. Says hippo lesions made delay dept. impairement, while sub/EC lesion made more serious impairement at ALL delays, inc. 0
-		II. Lesion vs. THC. Suggests that cannabinoids 'lesion' hippo, since they cause same delay-dept impairement, and are even worse (see fig.2)
-			-more proof: fig3. nonpreffered lever impairement at <5s delays for THC & lesioned animals suggests they using same strategy which is diff. then control
-			-more proof: fig4. THC pretrained & lesion nonpretrained had similar pattern of proactive interference error
-		III. DNMS task pecularities
-			1. preffered lever- animals have a prefered lever which they do much better on!
-			2. miscode 'proactive interference' error - occurs when memory from proceeding trial influenced next trial so that rat more likely to choose lever of last trial. 
-				-occurs mostly for whne proceeding trial was error w/ long delay
-		IV. Conclusion:	"The similarities in DNMS behavior between animals with hippocampal lesions and intact animals exposed to THC suggested that cannabinoids would act in a manner similar to a reversible hippocampal lesion."
-	
-	104. [Davies,2002]
+104. [Davies,2002]
 Davies, S. N., R. G. Pertwee, and G. Riedel. "Functions of cannabinoid receptors in the hippocampus." Neuropharmacology 42.8 (2002): 993-1007.
-	REVIEW of cannabinoids
-		I. Pharmacology
-			a. CB1 activated cascades is different in diff. brain regions
-			b. Diff endocannabinoids have diff. efficiency: WIN55 is high, THC is low
-		II. Physiological effects of Cannabinoids in hippo
-			1. GABA physiologoy
-				-hyperpolarized baseline potl of CA1 pyr. cells, possibly due to increased tonic GABA cnc due to bad reuptake
-				-DSI- "depolarization-induced supression of inhibition"- ie, postsyc cells is depoled, released canns & inhibits presyn cell by blocking GABA release
-					-see fig2. DSI appears to have timecourse of ~40seonds!
-			2. Glutamatergic physiology
-				-says its still argued whether canns inhibit excitation. (DSE). However, Akirav,2013 says they do!
-				-due to DSE, a group has reported that canns are ANTIEPILEPTICS!!!!!!!!!!
-			3. Other NTs
-				-shown to BIPHASICALLY inhibit ACh. *****This would strengthen/abolish atropine-sensitive septohippocampal theta	(acquias,2000/2001)
-			4. Effects on membrane currents
-				-blocks voltage-dept CA+ & Na+ channels. This is presumably how they limit NT release. Also have differential effects on various K+ channels
-			5. Canns & LTP
-				Canns inhibit LTP, but they might be BIPHASIC & support it at low doses
-			6. Vanilloid receptor & CCK
-				-anandamide can also act on vanilloid receptors, and this has been shown to lead to paired-pulse depression (see fig3)
-		III. Behavioral effects
-			1. says most studies administered systematically & thus cant be trusted to say cann's hippocampal effects
-			4.2.1 Acute infusion studies
-				-impaired most hippo. spatial tasks like 8-arm radial maze, T-maze, open-field water maze
-				-reviews hampson work. Shows in fig4. SAYS MFR DURING THC SAMPLE PHASE LOWER THAN CONTROL
-				-reviews varvel01 study which found impaired working/spatial memory but not ref (LT) memory in water maze
-			4.2.2 chronic infusions
-				-impaired LT spatial memory, but better at LT shutter box task
-				-Deadwyler found animal adapted to canns & performance gradually went to precann level even on canns (see fig4)	
-	A2L:
-		~40seonds DSI timecourse
-		cann effect on hippo nonlins (paired pulse depression
-		
-		
+REVIEW of cannabinoids
+I. Pharmacology
+a. CB1 activated cascades is different in diff. brain regions
+b. Diff endocannabinoids have diff. efficiency: WIN55 is high, THC is low
+II. Physiological effects of Cannabinoids in hippo
+1. GABA physiologoy
+-hyperpolarized baseline potl of CA1 pyr. cells, possibly due to increased tonic GABA cnc due to bad reuptake
+-DSI- "depolarization-induced supression of inhibition"- ie, postsyc cells is depoled, released canns & inhibits presyn cell by blocking GABA release
+-see fig2. DSI appears to have timecourse of ~40seonds!
+2. Glutamatergic physiology
+-says its still argued whether canns inhibit excitation. (DSE). However, Akirav,2013 says they do!
+-due to DSE, a group has reported that canns are ANTIEPILEPTICS!!!!!!!!!!
+3. Other NTs
+-shown to BIPHASICALLY inhibit ACh. *****This would strengthen/abolish atropine-sensitive septohippocampal theta(acquias,2000/2001)
+4. Effects on membrane currents
+-blocks voltage-dept CA+ & Na+ channels. This is presumably how they limit NT release. Also have differential effects on various K+ channels
+5. Canns & LTP
+Canns inhibit LTP, but they might be BIPHASIC & support it at low doses
+6. Vanilloid receptor & CCK
+-anandamide can also act on vanilloid receptors, and this has been shown to lead to paired-pulse depression (see fig3)
+III. Behavioral effects
+1. says most studies administered systematically & thus cant be trusted to say cann's hippocampal effects
+4.2.1 Acute infusion studies
+-impaired most hippo. spatial tasks like 8-arm radial maze, T-maze, open-field water maze
+-reviews hampson work. Shows in fig4. SAYS MFR DURING THC SAMPLE PHASE LOWER THAN CONTROL
+-reviews varvel01 study which found impaired working/spatial memory but not ref (LT) memory in water maze
+4.2.2 chronic infusions
+-impaired LT spatial memory, but better at LT shutter box task
+-Deadwyler found animal adapted to canns & performance gradually went to precann level even on canns (see fig4)
+A2L:
+~40seonds DSI timecourse
+cann effect on hippo nonlins (paired pulse depression
+
+102. [Akirav,2011]
+Akirav, Irit. "The role of cannabinoids in modulating emotional and non-emotional memory processes in the hippocampus." Frontiers in behavioral neuroscience 5 (2011).
+REVIEW of cannabinoids
+I. Physiology
+1. "eCBs are synthesized ìon demandî at the post-synaptic sites of neurons after an increase in neural activity and calcium ion influx, and are then released into the synaptic cleft. 
+Their main function appears to be the suppression of neurotransmitter release from the presynapse. 
+Thus, eCBs act as retrograde neurotransmitters, modulating other neurotransmitter systems."
+2. most concentrated in DG, CA3, CA1
+3. more on INs than pyr. cells. Thus they depress GABA/inhib effects more than Glut/excit effects
+4. WIN 55,212-2 is common CB1 receptor agonist (simm. to THC), while AM251 is antagonist
+II. CB agonists impair learning & memory
+1. huge amount of behavioral tasks showed that CBs impair learning & memory
+2. these studies have been done both on CBs administered systematically & only to hippocampus
+3. mentions that in Deadwyler,2000 study, these effects also had decreased MFR
+III. CBs inhibit learnin & memory by impairing LTP
+1. "Cannabinoids appear to work [inhibit plasticity] by reducing glutamate release below the level needed to activate N-Methyl-d-aspartate (NMDA) receptors 
+that are required for LTP and LTD (Shen et al., 1996; Misner and Sullivan, 1999). CB1 receptors are capable of regulating both inhibitory and excitatory 
+neurotransmitter release in the hippocampus and are thus capable of exerting subtle control over synaptic plasticity.
+IV. CBs & emotional memory
+1. "Hence, the results of Marsicano et al. (2002) and subsequent investigations demonstrate that inhibition of eCB transmission robustly inhibits (or prolongs) fear extinction. 
+Conversely, stimulation of eCB transmission accelerates fear extinction."
+2. fear extinction is suggested to be the dominant problem in phobias & PTSD
+V. CB effects on stress & anxiety
+1. ECs block raises stress. In small doses EC admin. reduces stress. In high doses, EC admin. raises stress. Thus BIPHASIC responce
+-note these studies have been done w/ several ECs & THC is the WORST one 
+2. a possible  reasons for biphasic responce islack of administered EC specificity to relevant systems. Ie, in larger amounts it effects different & bad systems.
+
+113. [Robbe,2006]
+Robbe, David, et al. "Cannabinoids reveal importance of spike timing coordination in hippocampal function." Nature neuroscience 9.12 (2006): 1526-1533.
+Method: 1. used MEA to record LFP & single cells in CA1 pyr. layer in rats doing t-maze alternation task
+2. studied in control, CP55 (strong CB1 agonist) & THC (weak THC agonist)
+3. analyzed using: LFP-FFT, LFP-spectogram, task performance (TP), TP vs. theta power, ripple-power-ratio histograms, MFR vs theta, autocorr of pyr & IN, ISI fraction <10s, rasterplot pop. synchorny, cross-corr & peak, 
+4. used 'ANCOVA' to show that theta reduced even whe running speed accounted for
+Result: 1. Intro summary: "Here, we show that cannabinoids disrupt the temporal coordination of hippocampal neurons and deteriorate theta, gamma and ripple network patterns without substantial changes in principle cell and interneuron average firing rates. 
+Furthermore, we found that the reduction of hippocampal theta oscillations by cannabinoids correlates with memory impairment in a hippocampus-dependent task."
+2. they did actually find a slight decrease (7.4%) in pyr. MFR at highest doses of .3mg CP55, but not in IN
+Discussion: 1. b4 this it was only known that THC reduces gamma power in LFP - not theta & not single cells...
+2. "Although modification of oscillatory patterns is often observed after surgical and pharmacological interference in the medial septum and systemic treatment with anesthetics or GABAB agonists, 
+alteration of LFP power independent of firing rates changes appears to be a unique effect of CB1 agonists. 
+This may be brought about by a balanced decrease in glutamate release from excitatory afferents, reduction in GABAergic inhibition by CCK interneurons and the indirect reduced excitatory drive of other interneurons"
+3. Final summary: "Overall, our findings indicate that under the influence of cannabinoids, neurons are liberated from population control. 
+Although individual neurons continue to discharge at the same rate, they fail to organize into temporally coordinated assemblies. 
+A clear disadvantage of decreased synchrony is the reduced effectiveness of the population output on their downstream targets, even though the same numbers of spikes are emitted. 
+We hypothesize that such hippocampus-wide impairment of network coordination, reflected by the reduction of LFP power, is causally related to the cannabinoid-induced memory impairment."
+4. connection to epilepsy: "The synchrony-reducing effects of CB1 receptor activation may also underlie the antiepileptic effects of endocannabinoids" 
+Questions: 1. both THC & CP55 used, but their strength was never compared....
+For Us: 
+1. Fig2d: compared change in performance vs theta power reduction....
+2. busting analysis (or ISI fraction <10ms) see fig6
+3. metrics of population synchrony under THC? using fano factor, see fig7
+4. given theory of decreased glutamate & GABA release, check excitatory index!
+Interesting sources: 
+1. Bursting: Buzsaki, G. Temporal interaction between single spikes and complex spike bursts in hippocampal pyramidal cells. Neuron 32, 141ñ149 (2001)
+
 112. [Robbe,2009]
 Robbe, David, and Gyˆrgy Buzs·ki. "Alteration of theta timescale dynamics of hippocampal place cells by a cannabinoid is associated with memory impairment." The Journal of neuroscience 29.40 (2009): 12597-12605.
-	Method: 1. recorded place cell activity in CA1 using tetrode array (array of tetrodes or electrodes?) before during and after THC injection
-			2. had animal doing t-maze alternation task while place cells being recorded
-	Results:1. observed that THC significnatly lowered performance & slowed down animal
-			2. observed that place cell maps were largely unaltered w/ THC. However the size of their place feilds very slightly decreased!
-			3. observed that THC DID inhibit theta dynamics via:
-				a. lowered theta peak freq from 8-10 to 7-9***. said it was independant of speed
-				b. lowered theta POWER, however said this was related to speed!
-				c. had proof that SYSTEM (vs signal) theta interactions between cells decreased. this is similar to PDMs
-			4. saw declined MFR w/ THC. Says the cannabioid affect on MFR due to lwoer speed. We say its more than that (maybe)
-	Discussion: 1. says that in THC ,more pyramid cells were recruited, suggesting less became silent**
-				2. punch line of article is that we cant know if spatial coding is based on 'cognitive map theory' (ie place fields) or theta dynamics. THC allows us to disrupt theta dynamics & leave intact PFs. We see that behavior disrupted even w/ intact place fields, which argues against cognitive map theory.........
-	
-	113. [Robbe,2006]
-Robbe, David, et al. "Cannabinoids reveal importance of spike timing coordination in hippocampal function." Nature neuroscience 9.12 (2006): 1526-1533.	
-	Method: 1. used MEA to record LFP & single cells in CA1 pyr. layer in rats doing t-maze alternation task
-			2. studied in control, CP55 (strong CB1 agonist) & THC (weak THC agonist)
-			3. analyzed using: 	LFP-FFT, LFP-spectogram, task performance (TP), TP vs. theta power, ripple-power-ratio histograms, MFR vs theta, autocorr of pyr & IN, ISI fraction <10s, rasterplot pop. synchorny, cross-corr & peak, 
-			4. used 'ANCOVA' to show that theta reduced even whe running speed accounted for
-	Result: 1. Intro summary: "Here, we show that cannabinoids disrupt the temporal coordination of hippocampal neurons and deteriorate theta, gamma and ripple network patterns without substantial changes in principle cell and interneuron average firing rates. 
-								Furthermore, we found that the reduction of hippocampal theta oscillations by cannabinoids correlates with memory impairment in a hippocampus-dependent task."			
-			2. they did actually find a slight decrease (7.4%) in pyr. MFR at highest doses of .3mg CP55, but not in IN
-	Discussion: 1. b4 this it was only known that THC reduces gamma power in LFP - not theta & not single cells...
-				2. "Although modification of oscillatory patterns is often observed after surgical and pharmacological interference in the medial septum and systemic treatment with anesthetics or GABAB agonists, 
-						alteration of LFP power independent of firing rates changes appears to be a unique effect of CB1 agonists. 
-						This may be brought about by a balanced decrease in glutamate release from excitatory afferents, reduction in GABAergic inhibition by CCK interneurons and the indirect reduced excitatory drive of other interneurons"
-				3. Final summary: "Overall, our findings indicate that under the influence of cannabinoids, neurons are liberated from population control. 
-									Although individual neurons continue to discharge at the same rate, they fail to organize into temporally coordinated assemblies. 
-									A clear disadvantage of decreased synchrony is the reduced effectiveness of the population output on their downstream targets, even though the same numbers of spikes are emitted. 
-									We hypothesize that such hippocampus-wide impairment of network coordination, reflected by the reduction of LFP power, is causally related to the cannabinoid-induced memory impairment."
-				4. connection to epilepsy: "The synchrony-reducing effects of CB1 receptor activation may also underlie the antiepileptic effects of endocannabinoids" 					
-	Questions: 	1. both THC & CP55 used, but their strength was never compared....
-	For Us: 
-		1. Fig2d: compared change in performance vs theta power reduction....
-		2. busting analysis (or ISI fraction <10ms) see fig6
-		3. metrics of population synchrony under THC? using fano factor, see fig7
-		4. given theory of decreased glutamate & GABA release, check excitatory index!
-	Interesting sources: 
-		1. Bursting: Buzsaki, G. Temporal interaction between single spikes and complex spike bursts in hippocampal pyramidal cells. Neuron 32, 141ñ149 (2001)
-	
-	114. [Robbe,2013]
-Sales-Carbonell, Carola, et al. "Striatal GABAergic and cortical glutamatergic neurons mediate contrasting effects of cannabinoids on cortical network synchrony." Proceedings of the National Academy of Sciences 110.2 (2013): 719-724.	
-	Method: 1. Recorded neocortical ECoG in 3 types of mice: control & 2 CB1-knockouts. 
-			2. Tested their HFO (high-freq oscillations >12Hz) & thalamic HVS (high-voltage spindles/spike&wave-discharges) during immobility in reponce to CP55 
-	Results:1. Saw that HVS increased w/ THC, while HFO declined (fig1)
-	Discussion: 1. attributes HFS increase to CB1 reduction of STn inhibitory input to thalamus (took feet of brakes - see fig6), and HFO decline to CB1 inhibiting glutamatergic transmission in cortex. Thus effects of THC multifaceted. 
-			2. discusses whether THC pro/anti convulsant. Sources 15-17 say it is, whereas 23-24 say its anticonvulsant. Suggests this because CB1 inhibits both GABA & glutamatergic transmission thus f***ing all up unpredictably
-			3. theory of getting high - HFS in thalamus promots expansion of weak sensory inputs, thus leading to THC increase in perception- "More generally, the activity of the thalamocortical system controls vigilance states and gates the perception of sensory stimulation (50). The recreational consumption of marijuana is well known to produce a ìhighî characterized by an altered consciousness and an intensification of sensory perceptions (51). Strikingly, in both human and rodent brains, the highest expression of CB1R is found in the SNr on striatonigral synapses (18, 20, 52, 53). Therefore, an exciting hypothesis for future investigation is that the sensory/behavioral ìhighî experienced during marijuana consumption is due to an aberrant thalamocortical synchrony via massive CB1R activation in the SNr."
-			4. gives good review of system effects of THC on network synchrony: "Specifically, systemic CB1R activation has been shown to decrease (i) the amplitude of the hippocampal ? rhythm (4, 7, 8), (ii) the amplitude of ? oscillations in the hippocampus (4, 7, 10), enthorinal cortex (8), and prefrontal cortex (7), (iii) the incidence of hippocampal ripples (4, 6, 11), and (iv) spiking correlation in the hippocampus and prefrontal cortex (4, 5, 7, 9)."
+Method: 1. recorded place cell activity in CA1 using tetrode array (array of tetrodes or electrodes?) before during and after THC injection
+2. had animal doing t-maze alternation task while place cells being recorded
+Results:1. observed that THC significnatly lowered performance & slowed down animal
+2. observed that place cell maps were largely unaltered w/ THC. However the size of their place feilds very slightly decreased!
+3. observed that THC DID inhibit theta dynamics via:
+a. lowered theta peak freq from 8-10 to 7-9***. said it was independant of speed
+b. lowered theta POWER, however said this was related to speed!
+c. had proof that SYSTEM (vs signal) theta interactions between cells decreased. this is similar to PDMs
+4. saw declined MFR w/ THC. Says the cannabioid affect on MFR due to lwoer speed. We say its more than that (maybe)
+Discussion: 1. says that in THC ,more pyramid cells were recruited, suggesting less became silent**
+2. punch line of article is that we cant know if spatial coding is based on 'cognitive map theory' (ie place fields) or theta dynamics. THC allows us to disrupt theta dynamics & leave intact PFs. We see that behavior disrupted even w/ intact place fields, which argues against cognitive map theory.........
 
-	116. [Goon,2011]
+103. [Hampson,1998]
+Hampson, Robert E., and Sam A. Deadwyler. "Role of cannabinoid receptors in memory storage." Neurobiology of disease 5.6 (1998): 474-482.
+REVIEW of Hampson's work on cannabinoids effects of DNMS task. See also Davies, pg 1001
+I. Hippo & memory - suggests hippo not as important in nonspatial memory like DNMS. Says hippo lesions made delay dept. impairement, while sub/EC lesion made more serious impairement at ALL delays, inc. 0
+II. Lesion vs. THC. Suggests that cannabinoids 'lesion' hippo, since they cause same delay-dept impairement, and are even worse (see fig.2)
+-more proof: fig3. nonpreffered lever impairement at <5s delays for THC & lesioned animals suggests they using same strategy which is diff. then control
+-more proof: fig4. THC pretrained & lesion nonpretrained had similar pattern of proactive interference error
+III. DNMS task pecularities
+1. preffered lever- animals have a prefered lever which they do much better on!
+2. miscode 'proactive interference' error - occurs when memory from proceeding trial influenced next trial so that rat more likely to choose lever of last trial. 
+-occurs mostly for whne proceeding trial was error w/ long delay
+IV. Conclusion:"The similarities in DNMS behavior between animals with hippocampal lesions and intact animals exposed to THC suggested that cannabinoids would act in a manner similar to a reversible hippocampal lesion."
+
+114. [Robbe,2013]
+Sales-Carbonell, Carola, et al. "Striatal GABAergic and cortical glutamatergic neurons mediate contrasting effects of cannabinoids on cortical network synchrony." Proceedings of the National Academy of Sciences 110.2 (2013): 719-724.
+Method: 1. Recorded neocortical ECoG in 3 types of mice: control & 2 CB1-knockouts. 
+2. Tested their HFO (high-freq oscillations >12Hz) & thalamic HVS (high-voltage spindles/spike&wave-discharges) during immobility in reponce to CP55 
+Results:1. Saw that HVS increased w/ THC, while HFO declined (fig1)
+Discussion: 1. attributes HFS increase to CB1 reduction of STn inhibitory input to thalamus (took feet of brakes - see fig6), and HFO decline to CB1 inhibiting glutamatergic transmission in cortex. Thus effects of THC multifaceted. 
+2. discusses whether THC pro/anti convulsant. Sources 15-17 say it is, whereas 23-24 say its anticonvulsant. Suggests this because CB1 inhibits both GABA & glutamatergic transmission thus f***ing all up unpredictably
+3. theory of getting high - HFS in thalamus promots expansion of weak sensory inputs, thus leading to THC increase in perception- "More generally, the activity of the thalamocortical system controls vigilance states and gates the perception of sensory stimulation (50). The recreational consumption of marijuana is well known to produce a ìhighî characterized by an altered consciousness and an intensification of sensory perceptions (51). Strikingly, in both human and rodent brains, the highest expression of CB1R is found in the SNr on striatonigral synapses (18, 20, 52, 53). Therefore, an exciting hypothesis for future investigation is that the sensory/behavioral ìhighî experienced during marijuana consumption is due to an aberrant thalamocortical synchrony via massive CB1R activation in the SNr."
+4. gives good review of system effects of THC on network synchrony: "Specifically, systemic CB1R activation has been shown to decrease (i) the amplitude of the hippocampal ? rhythm (4, 7, 8), (ii) the amplitude of ? oscillations in the hippocampus (4, 7, 10), enthorinal cortex (8), and prefrontal cortex (7), (iii) the incidence of hippocampal ripples (4, 6, 11), and (iv) spiking correlation in the hippocampus and prefrontal cortex (4, 5, 7, 9)."
+
+116. [Goon,2011]
 Goonawardena, Anushka V., Gernot Riedel, and Robert E. Hampson. "Cannabinoids alter spontaneous firing, bursting, and cell synchrony of hippocampal principal cells." Hippocampus 21.5 (2011): 520-531.
-	Method: 1. injected 3 types of cannabinoids intraperitonally into rats. recorded ambient MFR & bursting 
-			2. data analysis tools: showed PEHs across 20mins of ambient activity & barplots of MFR,bursting. Also did CA3-CA3, CA1-CA1, & CA3-CA1 cross-corr!
-			3. used different does of THC (the weak agonist) of 1mg & 3mg
-	Results:1. " 	(1) both partial (?9-THC) and full (WIN-2 and HU-210) cannabinoid agonists suppressed overall firing and burst characteristics of hippocampal principal cells located in CA3 and CA1 subfields at doses, which have produced memory deficits in rats 
-					(2) all three cannabinoids disrupted the synchronous firing of principal cells both within and between CA3 and CA1 regions; 
-					(3) effects were dissociable by drug dose as exemplified for ?9-THC in which local network synchrony was more sensitive to low doses while alterations in spike/burst firing were evident at relatively higher doses, most likely caused by more severe network interferences in the hippocampus."
-	Discussion: 1. says his results contradict robbe,2006 where MFR not affected. That could be cuz robbe used low doses
-				2. says  functional decoupling of principal neurons (ie loss of synchrony) precedes alterations in their firing/bursting patterns. This is shown via fig7,8
-		Q1: what reason does he give for differing w/ robbe06
-	Fos us:
-		-CA3-CA3 & CA1-CA1 cross-corr
-		-analysis of ambient activity
-		
+Method: 1. injected 3 types of cannabinoids intraperitonally into rats. recorded ambient MFR & bursting 
+2. data analysis tools: showed PEHs across 20mins of ambient activity & barplots of MFR,bursting. Also did CA3-CA3, CA1-CA1, & CA3-CA1 cross-corr!
+3. used different does of THC (the weak agonist) of 1mg & 3mg
+Results:1. " (1) both partial (?9-THC) and full (WIN-2 and HU-210) cannabinoid agonists suppressed overall firing and burst characteristics of hippocampal principal cells located in CA3 and CA1 subfields at doses, which have produced memory deficits in rats 
+(2) all three cannabinoids disrupted the synchronous firing of principal cells both within and between CA3 and CA1 regions; 
+(3) effects were dissociable by drug dose as exemplified for ?9-THC in which local network synchrony was more sensitive to low doses while alterations in spike/burst firing were evident at relatively higher doses, most likely caused by more severe network interferences in the hippocampus."
+Discussion: 1. says his results contradict robbe,2006 where MFR not affected. That could be cuz robbe used low doses
+2. says  functional decoupling of principal neurons (ie loss of synchrony) precedes alterations in their firing/bursting patterns. This is shown via fig7,8
+Q1: what reason does he give for differing w/ robbe06
+Fos us:
+-CA3-CA3 & CA1-CA1 cross-corr
+-analysis of ambient activity
+
 119. [Hampson, 2011]b
 Hampson, Robert E., et al. "Memory encoding in hippocampal ensembles is negatively influenced by cannabinoid CB1 receptors." Behavioural pharmacology 22.4 (2011): 335.
-	Method: 1. locally infused CB1 antagonist (Rimonabant) & agonist (WIN) into hippo. Observed behavior. 
-			2. Used MIMO stim to 'recover' WIN detriments
-			3. Measured 'code strength' as projection of ensemble matrix (PEH matrix of neuronXtime in +-2s of sample phase) onto 5th linear discriminant (from canonical discriminant analysis)
-			4. Used URB597 & URB602 for something??
-	Results:1. Saw that DF5 (from CCA) projection (ie code strength) increased w/ CB1 antagonist & decreased w/ CB1 agonist (fig2)
-			2. Saw that URB602 (CB1 agonist) had same effect as WIN (fig3)
-			3. Saw that MIMO stim was able to reocver function after WIN injection both in stimulation trials & in nonstimulation trials of same session!!!!!!
-	Discussion: 1. Says the local infusion of WIN had same effects as i.p injection		
-		
+Method: 1. locally infused CB1 antagonist (Rimonabant) & agonist (WIN) into hippo. Observed behavior. 
+2. Used MIMO stim to 'recover' WIN detriments
+3. Measured 'code strength' as projection of ensemble matrix (PEH matrix of neuronXtime in +-2s of sample phase) onto 5th linear discriminant (from canonical discriminant analysis)
+4. Used URB597 & URB602 for something??
+Results:1. Saw that DF5 (from CCA) projection (ie code strength) increased w/ CB1 antagonist & decreased w/ CB1 agonist (fig2)
+2. Saw that URB602 (CB1 agonist) had same effect as WIN (fig3)
+3. Saw that MIMO stim was able to reocver function after WIN injection both in stimulation trials & in nonstimulation trials of same session!!!!!!
+Discussion: 1. Says the local infusion of WIN had same effects as i.p injection
+
+
+
+Interneurons in the spinal cord may use glycine, or both GABA and glycine, to inhibit principal cells, whereas interneurons of cortical areas or the basal ganglia may release various neuropeptides (cholecystokinin, somatostatin, vasoactive intestinal polypeptide, enkephalins, neuropeptide Y, galanin, etc.) in addition to GABA. In some regions, such as the basal ganglia and the cerebellum, principal neurons are also GABAergic.
+
+However, some special interneurons preferentially target other interneurons. This represents the first dichotomy in the classification scheme, since there are subsets of interneurons containing the calcium binding protein calretinin (CR), or the neuropeptide vasoactive intestinal polypeptide (VIP), which were shown to form synapses predominantly on other GABAergic cells, and were therefore termed Interneuron-Selective interneurons (or IS cells). 
+
+Thus, interneurons innervating principal cell dendrites (the Dendritic Inhibitory cells) are designed to control the efficacy and most notably the plasticity of excitatory inputs to principal cells. On the other hand, the perisomatic domain is responsible for the summation of postsynaptic potentials arriving from all dendritic branches, which then may or may not reach threshold for action potential generation. 
+
+axo-axoninic/chandelier cells - ennervte axon hillock of 1-1.5k cells
+axo-somatic/dendritic basket cells - 1.5-2k synapses
+	PVcells-in str. pyr. driven by feed forward inhib. from CA3 (although have feedback also)
+	CCKcells- mostly in str. rad. primarily feedback driven. 
+	both fire at peak of LFP theta
+	Axo-dendritic bistratified cells - controls schaffer collateral inputs
+
+Attila Losonczy PNAS 2003 - goes against us by shwoing that in slice work there are CCK INs in CA3 which are muted by normal levels of endocannabinoids. when those levels are lowered, they are unmuted and are abe to inhibt CA3 pyr cells. Thu this doesnt go against us - it just says if we add CB antagonist, CA3 INs will fire more and inhibt CA3 pyr cells. If we add agonist, this particular class of IN will still be silent
+"The main axons run parallel with mossy fibers in stratum lucidum, emitting many collaterals in strata lucidum and pyramidale, with significant projections to the hilus. INs with similar axodendritic arborizations have been described (12, 20), and we will refer to them as mossy fiber-associated INs (MFA INs). "
+Several studies reported that the CB1 agonist WIN55,212–2 (≈1 μM) resulted in an ≈30% to 40% reduction of the amplitude of compound IPSCs recorded from CA1 PCs (15, 30, 31).
+
+
+Synaptic Cross Talk between Perisomatic-Targeting
+Interneuron Classes Expressing Cholecystokinin and
+Parvalbumin in Hippocampus
+----------------
+"They express receptors for numerous neurotransmitters
+and modulators, enabling them to respond to influences
+triggered by many environmental causes, and fine-tune pyramidal
+cell behavior "
+" Synaptic
+signaling from CCK to PV interneurons expands the known repertoire
+of these behaviorally important cells"
+"CCK cells release GABA asynchronously onto principal cells
+in dentate gyrus (Hefft and Jonas, 2005), CA3 (Losonczy and
+Nusser, 2004), and CA1 (Fo¨ldy et al., 2006)."
+"Asynchronous GABA release from CCK cells
+onto interneurons
+CCK cell transmission onto pyramidal also includes a major
+asynchronous component (i.e., large multiquantal responses persist
+after cessation of interneuronal action potential firing, particularly
+as the frequency of action potentials is raised from 10 to
+50 Hz) (Losonczy and Nusser, 2004; Fo¨ldy et al., 2006). "
+"Finally, it is interesting to consider the
+effects of endocannabinoids in this context. Released from pyramidal
+cells, they activate the CB1R on CCK terminals, thereby
+presumably reducing both GABA and CCK release from the terminals.
+In other words, although they do not themselves have
+CB1Rs, PV cell output should be subtly affected by endocannabinoids
+via CCK3PYR cross talk. Exogenous cannabinoids do
+depress hippocampal gamma (Ha´jos et al., 2000) and theta
+(Robbe et al., 2006) rhythms, probably by disrupting spiketiming
+coordination, although endogenous cannabinoids were
+not implicated in the rhythm generation itself"
+CCK>CCK synapses
+
+
+Basket cell dichotomy in microcircuit function Soltez12
+
+Lee, Sang-Hun, et al. "Parvalbumin-positive basket cells differentiate among hippocampal pyramidal cells." Neuron 82.5 (2014): 1129-1144.
+----------------
+"Of interest, we did not find excitatory connections from dPCs or sPCs to CCKBCs (Figure 5H; deep: 0/28 connected; superficial: 0/23 connected; to our knowledge, there has also been no direct demonstration of excitatory connections between CA1 PCs and morphologically identified CCKBCs in the literature). Together, these results demonstrate that CCKBCs, in stark contrast to PVBCs, do not differentiate between superficial and deep CA1 PCs, which is an unexpected finding in light of their selectivity in MEC (Varga et al., 2010)."
+---"every putative CCK cell was also post hoc identified specifically as a CCKBC, to differentiate it from the also CCK+ Schaffer collateral-associated cells that innervate PC dendrites (Lee et al., 2010). "
+
+
+Mátyás, Ferenc, Tamás F. Freund, and Attila I. Gulyás. "Convergence of excitatory and inhibitory inputs onto CCK‐containing basket cells in the CA1 area of the rat hippocampus." European Journal of Neuroscience 19.5 (2004): 1243-1256.
+------------------
+"According to this CCK/VIP-IR basket cells receive excitatory inputs from perforant path and/or nucleus reuniens thalami as well as from Schaffer collaterals. The largest proportion (45%) of excitatory inputs arrive in stratum radiatum, most probably from Schaffer collaterals. The contribution is considerable in stratum oriens (20%), where local pyramidal cell collaterals might also be involved."
+"The majority of excitatory inputs converging onto the dendrites of CCK cells (Fig. 4) was found to arrive within the termination zones of Schaffer collaterals, i.e. in strata radiatum (∼ 45%) and oriens (∼ 20%). In the latter layer the cells might also receive input from recurrent collaterals of the CA1 pyramidal cell. A significant proportion of the excitatory inputs converges onto CCK dendrites within stratum lacunosum-moleculare (∼ 22%), where afferents from the entorhinal cortex (Witter, 1993) and nucleus reuniens thalami predominate (Wouterlood et al., 1990). Thus, the CCK basket cells can be driven both in a feed-forward manner via the Schaffer collaterals and the perforant path, as well as in a feedback manner by the local recurrent collaterals of CA1 pyramidal cells, although the latter should be considerably weaker."
+
+
+Lee2010
+----------
+"The two major subtypes of CB1R- and CCK-expressing interneurons in the CA1 region of the hippocampus are the CCK-positive basket cells (CCK? BCs) that innervate the
+perisomatic region of pyramidal cells, and the also CCK-positive
+Schaffer collateral-associated cells (CCK? SCAs) that innervate
+the pyramidal cell dendrites in the radiatum and oriens layers"
+---"The latter finding is espe- cially surprising, since ripples are generated by strong excitatory input from CA3 pyramidal cells (Csicsvari et al., 2000), and BCs and SCAs have dendrites in the radiatum and oriens layers, and therefore are likely to receive direct Schaffer collateral inputs."
+
+Ruelle12
+--------
+---"The lower basal activation of the CB1
+receptors on glutamatergic terminals suggests that their reac-tivity to an increase in the endocannabinoid tone would be
+higher than that of the CB1 receptor on GABAergic terminals
+(Katona and Freund, 2008)."
+---"Nevertheless, it is worth mentioning that the relative densities of CB1 receptors on GABAergic and glutamatergic neurons are not fully reliable indicators per se of their respective strengths in regulating neurotransmitter release. As a matter of fact, the presence of presynaptic functional differences downstream from the CB1 receptor, involving coupling to G proteins and/or Ca2þ channels, has been shown between GABAergic and glutamatergic neurons. A recent study revealed that the capacity to recruit G proteins is more prom-inent in CB1 receptors located on glutamatergic terminals than on GABAergic terminals (Steindel et al., 2008), suggest-ing a compensatory effect to the lower abundance of CB1 receptors on glutamatergic terminals."
+
+ANKI
+what functional differences are used to classify INs
+what part of LFP theta do pyr cells fire? basket INs?
+CA1 layers & inputs
+basal transmission
+asynchronous release
+
+
