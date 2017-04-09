@@ -57,12 +57,12 @@
 Much of the research on cannabinoids (CBs) has focused on their effects at the molecular and synaptic level.
 However, the effects of CBs on the dynamics of neural circuits remains poorly understood.
 This study aims to disentangle the effects of CBs on the functional dynamics of the hippocampal Schaffer collateral synapse by using data-driven nonparametric modeling.
-Multi-unit activity was recorded from rats doing an episodic memory task in control sessions and under the influence of exogenously administered tetrahydrocannabinol (THC), the primary CB found in marijuana.
+Multi-unit activity was recorded from rats doing an working memory task in control sessions and under the influence of exogenously administered tetrahydrocannabinol (THC), the primary CB found in marijuana.
 It was found that THC left firing rate unaltered and only slightly reduced theta oscillations.
 Multivariate autoregressive models, estimated from spontaneous spiking activity, were then used to describe the dynamical transformation from CA3 to CA1.
 They revealed that THC served to functionally isolate CA1 from CA3 by reducing feedforward excitation and theta information flow.
 The functional isolation was compensated by increased feedback excitation within CA1, thus leading to unaltered firing rates.
-Finally, both of these effects were shown to be correlated with memory impairments in the episodic memory task.
+Finally, both of these effects were shown to be correlated with memory impairments in the working memory task.
 By elucidating the circuit mechanisms of CBs, these results help close the gap in knowledge between the cellular and behavioral effects of CBs.
 \end{abstract}
 
@@ -86,8 +86,8 @@ For example, cannabinoid activation of CB1 receptors, which are found on both py
 Furthermore, cannabinoids have been shown to interact with astrocytes \citep{metna15}, mitochondria \citep{benard12}, glycine receptors \citep{xiong11}, vanilloid receptors \citep{fawley14}, potassium ion channels \citep{gantz17}, and to reduce GABA and glutamate reuptake \citep{coull97,brown03}.
 Consequently, it is very difficult to extrapolate the emergent network level changes simply from a catalogue of effects cannabinoids have a cellular/molecular level.
 
-Here, we studied the effects of $\Delta^9$-tetrahydrocannabinol (THC) on hippocampal networks during memory encoding using spiking activity recorded in rodents in-vivo performing the Delayed-NonMatch-to-Sample (DNMS) episodic memory task.
-Multivariate autoregressive (MVAR) models \citep{sandler14}, were used in both control and THC sessions to estimate feedforward and feedback dynamical filters, which are akin to the waveform shapes of the CA3$\to$CA1 EPSP and CA1 afterhyperpolarization, respectively.
+Here, we studied the effects of $\Delta^9$-tetrahydrocannabinol (THC) on hippocampal networks during memory encoding using spiking activity recorded in rodents in-vivo performing the Delayed-NonMatch-to-Sample (DNMS) working memory task.
+Multivariate autoregressive (MVAR) models were used in both control and THC sessions to estimate feedforward and feedback dynamical filters, which are akin to the waveform shapes of the CA3$\to$CA1 EPSP and CA1 afterhyperpolarization, respectively \citep{sandler14}.
 MVAR models, which are a type of linear nonparametric model, are 'data-driven' in the sense that they estimate model parameters directly from recorded neural spiketrains and, unlike more biologically realistic models, make very few \textit{a priori} assumptions on the nature of the neural dynamics \citep{marm04,song09par1}.
 This characteristic makes them particularly well suited for this study, since as previously mentioned the emergent effects of THC on neural circuits are highly complex and unclear.
 Overall our results suggest that cannabinoids impair memory encoding by functionally isolating CA1 from CA3 via reduced theta information flow and altered excitatory-inhibitory balance across the Schaffer collateral synapse.
@@ -103,15 +103,15 @@ After a variable length delay, both levers were presented in the match phase and
 On the behavioral level, it was found that THC impaired rodent-performance on the DNMS task by about $12.2\pm.6\%$ (Fig. \ref{sig}a, \citep{hampson00}).
 
 While performing the DNMS task, single-unit activity was recorded from the hippocampal CA3 and CA1 regions using a multi-electrode array.
-No mean firing rate (MFR) changes were seen during THC sessions in either CA3 or CA1 cells (P=.502, Fig. \ref{sig}b).
-This includes activity around the DNMS sample phase, during the entire session, and in both general cells and sample-presentation cells (see below).
+There were no significant mean firing rate (MFR) differences between THC sessions and control sessions in either CA3 or CA1 cells (P=.502, Fig. \ref{sig}b).
+No MFR differences were seen whether considering the entire session or only times around the DNMS sample phase, or whether considering all cells or only sample-presentation cells (see below).
 The lack of any cannabinoid-induced changes in firing rates at this dosage has been observed in previous studies \citep{robbe06,goon10}.
 
 Two types of temporal coding were identified in the recorded spiketrains.
 First, on slower timescales, several neurons fired preferentially in response to lever presentation in the sample phase of the DNMS task \citep{hampson99}.
 It was found that THC reduced the proportion of sample-presentation cells in both CA3 and CA1 by roughly equal amounts ($\Delta=13\pm4\%, P<.001$; Fig. \ref{sig}c).
 Interestingly, some sample-presentation cells lost all of their preferential firing in THC sessions (Fig.\ref{sig}d); this contrasts with place cells whose receptive field stays largely intact under cannabinoids \citep{robbe09}.
-There was an interesting but insignificant trend connecting sample-presentation cell reduction with behavioral deficits ($R^2=.27, P=.052$, Fig. \ref{SFnegsig}a).
+There was an insignificant trend connecting sample-presentation cell reduction with behavioral deficits ($R^2=.27, P=.052$, Fig. \ref{SFnegsig}a).
 
 On faster timescales, it was found that several CA3 and CA1 neurons had theta band rhythmicity (4-7 Hz).
 Hippocampal theta oscillations are known to be intimately related to cognitive function \citep{buzsaki06,colgin13,moser13} and have previously been linked to performance in the DNMS task \citep{hasselmo10};
@@ -145,7 +145,8 @@ On a more abstract level, it aims to identify how the information encoded in CA3
 This is distinct from the \textit{signal} analysis done in the previous section which only looks at features of individual spiketrains rather than the causal relationship between multiple spiketrains as done in systems analysis.
 
 The relationship between an arbitrary number of input CA3 spiketrains and the output CA1 spiketrain was modeled using a multivariate autoregressive model described by Eq. \ref{eq:MVAR} and an example of which is pictured in Fig. \ref{ex}a.
-Each system consists of $N$ input CA3 neurons and $N$ feedforward filters describing the dynamical input-output relationship between the given CA3 and CA1 neurons %\footnote{So far used the term "feedforward filter". Maybe "input-output (IO) filter" is better?}.
+Each system consists of $N$ input CA3 neurons and $N$ feedforward filters describing the dynamical input-output relationship between the given CA3 and CA1 neurons (Fig. \ref{ex}b). 
+%\footnote{So far used the term "feedforward filter". Maybe "input-output (IO) filter" is better?}.
 Intuitively, these filters can be thought of as the EPSP elicited in the output CA1 neuron in response to an action potential (AP) in the input CA3 neuron.
 However, unlike EPSPs which traditionally only encapsulate ion-conductances from neurotransmitter-gated ion channels, the "blackbox" nature of the feedforward filters means they also include more complex dynamical effects such as dendritic integration, spike generation, active membrane conductances, and feedforward interneuronal inhibition (thereby allowing the filters between two pyramidal cells to be inhibitory).
 Each model also includes a feedback (autoregressive) filter which describes the effects of past output spikes onto the output present.
@@ -182,15 +183,15 @@ To study how THC affects system dynamics on a population level, we examined how 
 The average filter frequency profile for both control and THC sessions is shown in Fig. \ref{ker}a,b (top).
 Both feedforward and feedback spectra are found to have clear theta band peaks, thus generalizing the trend seen in the example system of Fig. \ref{ex}.
 This is consistent previous reports which show that CA3 propagates strong theta rhythms to CA1 \citep{kocsis99,buzsaki02} and also that CA1 is capable to generating endogenous theta rhythms \citep{williams09}.
-A significant decline was found in the theta power of the feedback filters ($\Delta=20.8\%$, $P<.001$; Fig. \ref{ker}b).
-Note that the feedback filter theta reduction is about 10x stronger than the theta reduction found in the CA1 spiketrain signals (Fig. \ref{sig}e.
+THC produced a significant decline in the theta power of the feedback filters ($\Delta=20.8\%$, $P<.001$; Fig. \ref{ker}b).
+Note that the feedback filter theta reduction is about 10x stronger than the theta reduction found in the CA1 spiketrain signals (Fig. \ref{sig}e).
 No reduction in theta power was found in the feedforward filters ($P=.61$, Fig. \ref{ker}a).
-This surprising result suggests that cannabinoid-induced theta desynchronization results primarily from altered feedback properties rather than changes in CA3$\to$CA1 dynamics.
+This result suggests that cannabinoid-induced theta desynchronization results primarily from altered feedback properties rather than changes in CA3$\to$CA1 dynamics.
 
 Cannabinoids have been reported to affect network excitation-inhibition balance (EIB) \citep{ozaita12,monory15}.
 Particularly, there is much debate whether cannabinoids are pro- or anticonvulsants \citep{hill13,turkanis82,clement03,blair06,rudenko12}.
 In order to examine the effects cannabinoids have on network EIB, we quantified the excitation of the estimated filters using a metric called the excitatory index (EI), which is the ratio between positive filter area and total filter area.
-It was found that THC had no significant effect on feedforward EI ($P=.14$); however, there was an interesting but insignificant trend showing that THC-induced decreases in feedforward EI were correlated with behavioral deficits ($R^2=.27, P=.063$, Fig. \ref{ker}c).
+It was found that THC had no significant effect on feedforward EI ($P=.14$); however, there was an insignificant trend showing that THC-induced decreases in feedforward EI were correlated with behavioral deficits ($R^2=.27, P=.063$, Fig. \ref{ker}c).
 Additionally, THC reduced the amount of casually connected CA3-CA1 neuronal pairs ($\Delta=-8.9\%$, $P<.001$).
 These findings, together with the THC-induced decrease of CA3$\to$CA1 significant models, suggest that THC reduces the causal influence CA3 neurons have on CA1 spiketimes.
 In other words, THC can be said to functionally isolate CA1 from CA3.
@@ -217,7 +218,7 @@ One set of gPDMs were estimated from all (control and THC) obtained filters with
 
 Fig. \ref{pdm}a,b shows the obtained feedforward and feedback gPDMs in both the time and frequency domain.
 Once again, the feedforward and feedback gPDMs represent the dominant independent componenets of feedforward and feedback kernels, respectively.
-The first, and thus most significant, feedforward gPDM was found to have almost all its energy in the 1st time bin, with an immediate decline thereafter.
+The first feedforward gPDM was found to have almost all its energy in the 1st time bin, with an immediate decline thereafter.
 This gPDM represents near concurrent firing between CA3 and CA1 neurons and presumably results from both direct CA3$\to$CA1 connections via the Schaffer collateral synapse \citep{deadwyler75,sandler15clpp} and common inputs from the entorhinal cortex \citep{jones93,mehta09}.
 The third feedforward gPDM, which is characterized by an initial inhibitory phase, presumably represents feedforward interneuronal inhibition which is prevalent in the CA3$\to$CA1 connection \citep{pouille01,zemankovics13}.
 THC was not found to influence the strength of either of these gPDMs ($P=.76$, $P=.60$; Fig. \ref{SFnegpdm}).
@@ -239,7 +240,8 @@ As previously mentioned, these dynamics arise through the combination of intrace
 %\footnote{I decided not to force myself to interpret the 1st 2 FB PDMs, since it is not at all obvious what they are. Do you think this is ok?}
 It was found that THC-induced increases in the third feedback gPDM were correlated with behavioral deficits ($R^2=.39$, $P=.005$; Fig. \ref{pdm}d).
 This correlation was not seen in either of the first two feedback gPDMs ($P=.32$, $P=.75$; Fig. \ref{SFnegpdm}).
-Notably, the 3rd feedback gPDM was seen to be "theta-blocking" in the frequency domain - namely, it serves to counteract the 1st "theta-promoting" feedback gPDM and disrupts theta oscillations in the CA1 neuron.
+Notably, the 3rd feedback gPDM was seen to be "theta-blocking" in the frequency domain due to its trough at 8 Hz. 
+This gPDM counteracts the 1st "theta-promoting" feedback gPDM and disrupts theta oscillations in the CA1 neuron.
 The THC-induced changes in the feedforward and feedback theta gPDMs paint a more complete picture of the CA1 theta reductions seen in Fig. \ref{sig}e.
 Namely, they attribute the theta losses to specific feedforward and feedback dynamical filters which may potentially be traced to specific biophysical mechanisms.
 Furthermore, changes in these dynamical filters have been specifically correlated with behavioral deficits, which could not be done with theta reductions in the CA1 signal (Fig. \ref{SFnegsig}).
@@ -265,13 +267,13 @@ We hypothesize that this is due to reduced feedback inhibition from CA1 cholecys
 While CCK cells only make up only 13.9\% of interneurons \citep{bezaire13}, they express significantly more CB1 receptors than any other cell in the hippocampus \citep{katona00}, and their primary output is to CA1 pyramidal cells \citep{bezaire13}.
 Increased THC concentrations would reduce CCK interneuron output by (1) reducing the amount of GABA they release per action potential (2) reducing their MFR due to reduced glutamatergic input from principal cells in both CA3 and CA1 \citep{gulyas04,lee10}.
 
-It was also found that THC reduces the number of casually connected CA3-CA1 neuronal pairs; furthermore there was an interesting but insignificant trend for THC-induced deficits in feedforward excitation to lead to behavioral deficits.
+It was also found that THC reduced the number of casually connected CA3-CA1 neuronal pairs; furthermore there was an interesting but insignificant trend for THC-induced deficits in feedforward excitation to lead to behavioral deficits.
 This trend may prove to be significant given a higher sample size. 
 We hypothesize that this reduced feedforward influence is caused by decreased glutamate release from CA3 pyramidal cells due to CB1 receptor activation by THC \citep{shen96}.
 Even though pyramidal cells have much lower densities of CB1 receptors than interneurons \citep{katona00,ohno02}, there is evidence that CB induced reduction of excitation is larger than these relative densities suggest. 
 Principal cells outnumber interneurons 20:1 in CA1 \citep{mehta09} and their CB1 receptors were found to be several fold more efficacious than those of interneurons \citep{steindel13}. 
 Further, lower baseline activation levels of CB1 receptors on principal cells than on interneurons suggest they would be disproportionately activated by CB agonists \citep{ruehle12}. 
-Altogether, the decreased feedback inhibition and feedforward excitation amount to a functional isolation, or breakdown in information flow from CA3 to CA1.
+Altogether, the decreased feedback inhibition and feedforward excitation amount to a functional isolation, or breakdown in information flow between CA3 and CA1.
 We suggest that this functional isolation is responsible for the behavioral impairments seen in the DNMS task.
 
 \iffalse
@@ -289,15 +291,15 @@ Furthermore, the only reason that MFR remained constant is that at the given dos
 
 The 'functional isolation' hypothesis is further supported by previous work which showed that the behavioral impairments caused by cannabinoids in the DNMS task were similar to those seen with a full pharmacological lesion of the hippocampus \citep{hampson98}
 Given the centrality of CA3$\to$CA1 information flow to hippocampal function, a functional isolation of these areas could indeed presumably lead to impairments similar to that of a full lesion.
-Also relevant is a study by \citet{goon10} where THC was injected intraperitoneally at low 1 mg/kg doses as in this study and in higher doses of 3 mg/kg.
-It was found that while both doses disrupted hippocampal synchrony, only the higher dose resulted in a reduction in pyramidal cell MFR.
-This suggests that at the lower doses both previously described phenomena are at a net balance, while at the higher dose, the decrease in feedforward excitation overpowers the increase in feedback excitation and results in lower MFR.
+Relatedly, \citet{goon10} injected THC intraperitoneally at low 1 mg/kg doses as in this study and in higher doses of 3 mg/kg.
+They found that while both doses disrupted hippocampal synchrony, only the higher dose resulted in a reduction in pyramidal cell MFR.
+This suggests that at the lower dose both previously described phenomena are at a net balance, while at the higher dose, the decrease in feedforward excitation overpowers the increase in feedback excitation and results in lower MFR.
 Finally, the hypothesis predicts a breakdown in the normal spiketime coordination between pyramidal cells and interneurons in CA1 circuits.
 The breakdown of this coordination, which has been extensively implicated in hippocampal oscillations \citep{traub03,kopell05}, could be responsible for the observed decrease in theta oscillations and information flow.
 
 Although the current results only suggest this hypothesis, several experiments could be done to further substantiate it.
 Feedforward and feedback kernels and gPDMs could be estimated at different doses of THC; the hypothesis would predict that different doses would effect the two processes independently, with one of the two processes potentially being more dominant at different THC levels.
-Also significant developments in in-vivo synaptic patch clamping \citep{tao15} and calcium imaging in recent years could be used to directly measure the drive of CCK cells and CA3 pyramidal cells onto CA1 pyramidal cells under THC.
+Significant developments in in-vivo synaptic patch clamping \citep{tao15} and calcium imaging in recent years could be used to directly measure the drive of CCK cells and CA3 pyramidal cells onto CA1 pyramidal cells under THC.
 
 Much research has been done investigating the effects THC and other cannabinoids have on seizures and epilepsy.
 Results so far have been mixed, with various studies showing that THC is both pro- and anticonvulsant \citep{wallace01,blair06,deshpande07,rudenko12,katona15,hill13,katona15}.
