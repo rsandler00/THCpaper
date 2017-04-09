@@ -486,7 +486,7 @@ The very conservative threshold ($P<.0001$) was used due to the large amount of 
 Unless otherwise noted, the unpaired Mann-Whitney U test was used to access whether significant differences exist between two samples. This test was used since it does not assume a normal distribution, and much of our data was found to be skewed/nonnormal. Shift estimates (Hodges-Lehman) and confidence intervals were estimated as prescribed by \citet{higgins93}. In order to estimate the scale estimate, or the ratio between two samples, the data was first log-transformed and then scale estimate was taken to be the antilog of the shift estimate. The $\chi^2$ test was used to compare proportions.
 
 In addition to the Pearson correlation coefficient, $\rho$, Receiver Operating Characteristic (ROC) curves were used to visualize model performance. ROC curves plot the true positive rate against the false positive rate over the putative range of threshold values for the continuous output, y \citep{zanos08}. The area under the curve (AUC) of ROC plots are used as a performance metric of the model, and have been shown to be equivalent to the Mann-Whitney two sample statistic \citep{hanely1982}. The AUC ranges from 0 to 1, with 0.5 indicating a random predictor and higher values indicating better model performance. The $\rho$ and AUC metrics were chosen as they measure the similarity between a continuous 'prethreshold' signal and a spike train. The continuous 'prethreshold' signal was chosen over adding a threshold trigger and comparing true output spike train with an output 'postthreshold' spike train for two reasons. First, this allows us to avoid specifying the threshold trigger value, which relies on the somewhat arbitrary tradeoff between true-positive and false-negative spikes \citep{marm13}. Also, similarity metrics between two spike trains often require the specification of a 'binning parameter' to determine the temporal resolution of the metric \citep{vanrossum01,victor97}.
-\footnote{I should probably add sections on how behavioral correlation analysis \& FFT was done...}
+%\footnote{I should probably add sections on how behavioral correlation analysis \& FFT was done...}
 
 
 \section{Supplementary Figures \label{SF}}
@@ -511,7 +511,7 @@ CA3 spectra mean frequency and differences. Same format as Fig. \ref{sig}e. A we
 \centering
 \includegraphics[width=120mm]{SFnegsig}
 \caption[Negative CA1 Theta Power Results]{
-(A) A suggestive but insignificant relationship was found between the THC-induced decrease in the mean number of sample-presentation cells and behavioral performance ($R^2=.265$, $P=.052$).
+(A) An insignificant trend was found between the THC-induced decrease in the mean number of sample-presentation cells and behavioral performance ($R^2=.265$, $P=.052$).
 (B) No relationship was found between reductions in CA1 theta power and behavioral impairment ($P=.67$).
 Format is same as Fig. \ref{ker}.}
 \label{SFnegsig}
