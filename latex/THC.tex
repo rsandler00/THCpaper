@@ -57,11 +57,11 @@
 Much of the research on cannabinoids (CBs) has focused on their effects at the molecular and synaptic level.
 However, the effects of CBs on the dynamics of neural circuits remains poorly understood.
 This study aims to disentangle the effects of CBs on the functional dynamics of the hippocampal Schaffer collateral synapse by using data-driven nonparametric modeling.
-Multi-unit activity was recorded from rats doing an working memory task in control sessions and under the influence of exogenously administered tetrahydrocannabinol (THC), the primary CB found in marijuana.
+Multi-unit activity was recorded from rats doing a working memory task in control sessions and under the influence of exogenously administered tetrahydrocannabinol (THC), the primary CB found in marijuana.
 It was found that THC left firing rate unaltered and only slightly reduced theta oscillations.
 Multivariate autoregressive models, estimated from spontaneous spiking activity, were then used to describe the dynamical transformation from CA3 to CA1.
 They revealed that THC served to functionally isolate CA1 from CA3 by reducing feedforward excitation and theta information flow.
-The functional isolation was compensated by increased feedback excitation within CA1, thus leading to unaltered firing rates.
+The functional isolation was compensated by increased feedback excitation within CA1.
 Finally, both of these effects were shown to be correlated with memory impairments in the working memory task.
 By elucidating the circuit mechanisms of CBs, these results help close the gap in knowledge between the cellular and behavioral effects of CBs.
 \end{abstract}
@@ -100,8 +100,12 @@ To evaluate the effects of exogenous cannabinoids on the hippocampal network 1 m
 All data was previously used in a study on the effects of cannabinoids on hippocampal multifractality \citep{dustin14,dustin15}.
 Briefly, in the sample phase, the rats were presented one of two levers. 
 After a variable length delay, both levers were presented in the match phase and the rat had to choose the opposite lever to receive a reward. 
+<<<<<<< HEAD
 On the behavioral level, it was found that THC reduced rodent-performance on the DNMS task by about $12.2\pm.6\%$ (Fig. \ref{sig}a, \citep{hampson00}).
 This corresponds to a $24.4\%$ impairment relative to baseline performance at $50\%$.
+=======
+On the behavioral level, it was found that THC impaired rodent-performance on the DNMS task by $12.2\pm.6\%$ (Fig. \ref{sig}a, \citep{hampson00}).
+>>>>>>> adedeb7af26ce9ce1c4c63d8abb267b1dadbdd62
 
 While performing the DNMS task, single-unit activity was recorded from the hippocampal CA3 and CA1 regions using a multi-electrode array.
 There were no significant mean firing rate (MFR) differences between THC sessions and control sessions in either CA3 or CA1 cells (P=.502, Fig. \ref{sig}b).
@@ -110,7 +114,7 @@ The lack of any cannabinoid-induced changes in firing rates at this dosage has b
 
 Two types of temporal coding were identified in the recorded spiketrains.
 First, on slower timescales, several neurons fired preferentially in response to lever presentation in the sample phase of the DNMS task \citep{hampson99}.
-It was found that THC reduced the proportion of sample-presentation cells in both CA3 and CA1 by roughly equal amounts ($\Delta=13\pm4\%, P<.001$; Fig. \ref{sig}c).
+It was found that THC reduced the proportion of these sample-presentation cells in both CA3 and CA1 by roughly equal amounts ($\Delta=13\pm4\%, P<.001$; Fig. \ref{sig}c).
 Interestingly, some sample-presentation cells lost all of their preferential firing in THC sessions (Fig.\ref{sig}d); this contrasts with place cells whose receptive field stays largely intact under cannabinoids \citep{robbe09}.
 There was an insignificant trend connecting sample-presentation cell reduction with behavioral deficits ($R^2=.27, P=.052$, Fig. \ref{SFnegsig}a).
 
@@ -118,8 +122,12 @@ On faster timescales, it was found that several CA3 and CA1 neurons had theta ba
 Hippocampal theta oscillations are known to be intimately related to cognitive function \citep{buzsaki06,colgin13,moser13} and have previously been linked to performance in the DNMS task \citep{hasselmo10};
 furthermore, theta oscillations are known to be reduced by systemic injections of cannabinoids on both the single unit \citep{robbe06} and network level \citep{kocsis08}.
 It was found that CA1 theta power was slightly but significantly reduced in THC sessions ($\Delta=2.52\%, CI:[.61,4.4]\% P=.004$; Fig. \ref{sig}e).
+<<<<<<< HEAD
 A similar, albeit slightly weaker, theta power reduction was seen in CA3 cells ($\Delta=1.94\%$, $P=.045$; Fig. \ref{SFca3spectra}).
 Interestingly, in both cases, the significant reduction of theta power occurred at 5-6Hz, which is lower than the observed theta peak.   
+=======
+A similar theta power reduction was seen in CA3 cells ($\Delta=1.94\%$, $P=.045$; Fig. \ref{SFca3spectra}).
+>>>>>>> adedeb7af26ce9ce1c4c63d8abb267b1dadbdd62
 Unlike previous results in a different task \citep{robbe06}, the reduction in CA1 theta power was not found to be correlated with behavioral deficits in the DNMS task ($P=.674$, Fig. \ref{SFnegsig}b).
 
 Overall, these results show that THC has minor effects on the actual neuronal spiketimes: quantity of spikes (MFR) was not affected and spike rhythmicity (theta oscillations) were only slightly affected.
@@ -131,7 +139,11 @@ Furthermore behavioral deficits induced by cannabinoids could not be explained b
 \caption[Signal Analysis]{
 (A) Behavioral performance on Delayed-NonMatch-to-Sample (DNMS) task in both control and THC sessions. Dashed lines show individual animal performance, while solid lines show mean performance over all animals. Bars indicate SEM. Dashed red line indicates performance at chance level.
 (B) Individual neuron mean firing rate (MFR).
+<<<<<<< HEAD
 (C) Sample-presentation cell proportion in CA3 and CA1 cells in control \& THC sessions (***=$P<.001$). 
+=======
+(C) Sample-presentation cell (SPC) proportion in CA3 and CA1 cells in control \& THC sessions
+>>>>>>> adedeb7af26ce9ce1c4c63d8abb267b1dadbdd62
 (D) Example of a sample-presentation cell in a control session (top) which lost its firing specificity under THC (bottom). X-axis shows MFR (Hz)
 (E) Average CA1 spiketrain spectra (top). Bottom shows mean difference in \textit{individual} cell spectra (thus it is not simply the difference between the signals in above which are averaged over whole population). Gray error bounds indicate 99\% confidence bounds.
 In (B) and (E), only neurons recorded in at least one control \& THC session were included. Results for neurons recorded in several control or THC sessions were averaged over those sessions.}
@@ -155,7 +167,7 @@ Each model also includes a feedback (autoregressive) filter which describes the 
 This filter, which can be intuitively thought of as the afterhyperpotential (AHP) \citep{spruston07} includes intracellular processes such as the absolute and relative refractory periods, slow potassium conductances, and $I_h$ conductances.
 It also includes more complex intercellular processes such as the recurrent connections between CA1 pyramidal cells and interneurons \citep{klausberger08}.
 Neuronal connectivity was estimated using a stepwise input selection procedure.
-Filter parameters were estimated with Laguerre basis regression using neuronal activity around the sample phase.
+Filters were estimated with Laguerre basis expansion using neuronal activity around the sample phase.
 Model significance was verified using ROC plots and shuffling methods (see supplementary methods).
 
 A representative connectivity grid from a recorded THC session with 10 recorded neurons (4 CA3, 6 CA1) is shown in Fig. \ref{ex}a.
@@ -167,7 +179,7 @@ In order to study the filter oscillations more closely, the filter frequency spe
 Both feedforward excitatory filters were found to have peaks in the high theta range (8-9 Hz).
 Intuitively, this can be understood to mean that information encoded in the theta range in these input neurons is preferentially transmitted to the output CA1 neuron.
 Furthermore, the feedback filter has a low theta resonance of 3.5 Hz.
-Significance metrics for the displayed system is shown in Fig. \ref{SFMCsig}, and additional systems are shown in Fig. \ref{SF_MVARxtra}.
+Significance metrics for the displayed system are shown in Fig. \ref{SFMCsig}, and additional systems are shown in Fig. \ref{SF_MVARxtra}.
 All together 66\% (707/1068) of all systems were found to be significant and 2139 feedforward and 707 feedback filters were obtained.
 THC was found to reduce the number of significant models per session ($\Delta=-7.4\%$, $P=.011$), but the predictive power of significant models, as measured by AUC (see supplementary methods), was unaltered ($P=.24$).
 
@@ -184,7 +196,7 @@ THC was found to reduce the number of significant models per session ($\Delta=-7
 To study how THC affects system dynamics on a population level, we examined how features change in the entire sample of control and THC filters.
 The average filter frequency profile for both control and THC sessions is shown in Fig. \ref{ker}a,b (top).
 Both feedforward and feedback spectra are found to have clear theta band peaks, thus generalizing the trend seen in the example system of Fig. \ref{ex}.
-This is consistent previous reports which show that CA3 propagates strong theta rhythms to CA1 \citep{kocsis99,buzsaki02} and also that CA1 is capable to generating endogenous theta rhythms \citep{williams09}.
+This is consistent previous with reports which show that CA3 propagates strong theta rhythms to CA1 \citep{kocsis99,buzsaki02} and also that CA1 is capable to generating endogenous theta rhythms \citep{williams09}.
 THC produced a significant decline in the theta power of the feedback filters ($\Delta=20.8\%$, $P<.001$; Fig. \ref{ker}b).
 Note that the feedback filter theta reduction is about 10x stronger than the theta reduction found in the CA1 spiketrain signals (Fig. \ref{sig}e).
 No reduction in theta power was found in the feedforward filters ($P=.61$, Fig. \ref{ker}a).
@@ -253,20 +265,25 @@ Furthermore, changes in these dynamical filters have been specifically correlate
 The current study uses 'data-driven' nonparametric system dynamics modeling tools to study the effects of THC on the Schaffer Collateral synapse in rodents.
 The chief findings of the study can be summarized as:
 (1) THC induced little or no change in traditional rate and temporal coding metrics such as MFR and theta power, 	
-(2) THC altered the CA1 excitatory-inhibitory balance by reducing feedforward influence from CA3 while increasing feedback excitation from CA1,
+(2) THC altered the CA1 excitatory-inhibitory balance by reducing feedforward influence from CA3 while increasing feedback excitation in CA1,
 (3) THC reduced theta information flow through the Schaffer collateral synapse,
-and (4) The magnitudes of both of the previous effects were directly correlated with the severity of behavioral deficits induced by THC.
+and (4) the magnitudes of both of the previous effects were directly correlated with the severity of behavioral deficits induced by THC.
 Overall these results suggest the conclusion that THC impairs memory encoding by functionally isolating CA1 from CA3.
 
 From a computational perspective, the nonparamteric modeling methods used in this study proved successful in studying the network level effects of cannabinoids since, unlike biophysical models, all model parameters where estimated directly from recorded data and very few \textit{a priori} assumptions were made about the effects of THC \citep{marm04,song09par1,sandler15}.
 The global principal dynamic modes (gPDMs), which were derived from MVAR filters of the entire population of neurons, further extracted hidden dynamical structure from 'noisy' neuron-neuron variability.
 Importantly, THC-induced changes in the gPDMs were directly correlated with behavioral impairments, thus justifying their utility.
-Furthermore, while most in-vivo studies on THC analyze macro level signals such as ECoG and EEG, this work adds to a relatively small body of literature which analyzes the effects of THC on neuronal population spiking activity.
+Furthermore, while most in-vivo studies on THC analyze macro level signals such as LFPs and EEG, this work adds to a relatively small body of literature which analyzes the effects of THC on neuronal population spiking activity.
 Finally, to our knowledge, this is the first work which examines the effect of THC on neuronal systems dynamics, or the causal interactions between signals, rather than on neuronal signals themselves.
 
 It was found that THC increased feedback excitatory index in CA1 and that the magnitude of this effect was correlated with behavioral deficits. 
+<<<<<<< HEAD
 We hypothesize that this is due to reduced feedback inhibition from CA1 cholecystokinin (CCK)-containing cells.
 While CCK cells only make up only 13.9\% of interneurons \citep{bezaire13}, they express significantly more CB1 receptors than any other cell in the hippocampus \citep{katona00}, and their primary output is to CA1 pyramidal cells \citep{bezaire13}.
+=======
+We hypothesize that this is due to reduced feedback inhibition from CA1 cholecystokinin (CCK)-containing basket cells.
+While CCK cells only make up 13.9\% of interneurons \citep{bezaire13}, they express significantly more CB1 receptors than any other cell in the hippocampus \citep{katona00}, and their primary output is to CA1 pyramidal cells \citep{bezaire13}.
+>>>>>>> adedeb7af26ce9ce1c4c63d8abb267b1dadbdd62
 Increased THC concentrations would reduce CCK interneuron output by (1) reducing the amount of GABA they release per action potential (2) reducing their MFR due to reduced glutamatergic input from principal cells in both CA3 and CA1 \citep{gulyas04,lee10}.
 
 It was also found that THC reduced the number of casually connected CA3-CA1 neuronal pairs; furthermore there was an interesting but insignificant trend for THC-induced deficits in feedforward excitation to lead to behavioral deficits.
@@ -487,7 +504,7 @@ The very conservative threshold ($P<.0001$) was used due to the large number of 
 Unless otherwise noted, the unpaired Mann-Whitney U test was used to access whether significant differences exist between two samples. This test was used since it does not assume a normal distribution, and much of our data was found to be skewed/nonnormal. Shift estimates (Hodges-Lehman) and confidence intervals were estimated as prescribed by \citet{higgins93}. In order to estimate the scale estimate, or the ratio between two samples, the data was first log-transformed and then scale estimate was taken to be the antilog of the shift estimate. The $\chi^2$ test was used to compare proportions.
 
 In addition to the Pearson correlation coefficient, $\rho$, Receiver Operating Characteristic (ROC) curves were used to visualize model performance. ROC curves plot the true positive rate against the false positive rate over the putative range of threshold values for the continuous output, y \citep{zanos08}. The area under the curve (AUC) of ROC plots are used as a performance metric of the model, and have been shown to be equivalent to the Mann-Whitney two sample statistic \citep{hanely1982}. The AUC ranges from 0 to 1, with 0.5 indicating a random predictor and higher values indicating better model performance. The $\rho$ and AUC metrics were chosen as they measure the similarity between a continuous 'prethreshold' signal and a spike train. The continuous 'prethreshold' signal was chosen over adding a threshold trigger and comparing true output spike train with an output 'postthreshold' spike train for two reasons. First, this allows us to avoid specifying the threshold trigger value, which relies on the somewhat arbitrary tradeoff between true-positive and false-negative spikes \citep{marm13}. Also, similarity metrics between two spike trains often require the specification of a 'binning parameter' to determine the temporal resolution of the metric \citep{vanrossum01,victor97}.
-\footnote{I should probably add sections on how behavioral correlation analysis \& FFT was done...}
+%\footnote{I should probably add sections on how behavioral correlation analysis \& FFT was done...}
 
 
 \section{Supplementary Figures \label{SF}}
@@ -512,7 +529,7 @@ CA3 spectra mean frequency and differences. Same format as Fig. \ref{sig}e. A we
 \centering
 \includegraphics[width=120mm]{SFnegsig}
 \caption[Negative CA1 Theta Power Results]{
-(A) A suggestive but insignificant relationship was found between the THC-induced decrease in the mean number of sample-presentation cells and behavioral performance ($R^2=.265$, $P=.052$).
+(A) An insignificant trend was found between the THC-induced decrease in the mean number of sample-presentation cells and behavioral performance ($R^2=.265$, $P=.052$).
 (B) No relationship was found between reductions in CA1 theta power and behavioral impairment ($P=.67$).
 Format is same as Fig. \ref{ker}.}
 \label{SFnegsig}
