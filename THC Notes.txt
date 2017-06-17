@@ -219,7 +219,7 @@ Mátyás, Ferenc, Tamás F. Freund, and Attila I. Gulyás. "Convergence of excit
 "The majority of excitatory inputs converging onto the dendrites of CCK cells (Fig. 4) was found to arrive within the termination zones of Schaffer collaterals, i.e. in strata radiatum (∼ 45%) and oriens (∼ 20%). In the latter layer the cells might also receive input from recurrent collaterals of the CA1 pyramidal cell. A significant proportion of the excitatory inputs converges onto CCK dendrites within stratum lacunosum-moleculare (∼ 22%), where afferents from the entorhinal cortex (Witter, 1993) and nucleus reuniens thalami predominate (Wouterlood et al., 1990). Thus, the CCK basket cells can be driven both in a feed-forward manner via the Schaffer collaterals and the perforant path, as well as in a feedback manner by the local recurrent collaterals of CA1 pyramidal cells, although the latter should be considerably weaker."
 
 
-Lee2010
+Lee, Sang-Hun, Csaba Földy, and Ivan Soltesz. "Distinct endocannabinoid control of GABA release at perisomatic and dendritic synapses in the hippocampus." Journal of Neuroscience 30.23 (2010): 7993-8000.
 ----------
 "The two major subtypes of CB1R- and CCK-expressing interneurons in the CA1 region of the hippocampus are the CCK-positive basket cells (CCK? BCs) that innervate the
 perisomatic region of pyramidal cells, and the also CCK-positive
@@ -243,3 +243,14 @@ basal transmission
 asynchronous release
 
 
+
+
+
+Urgg… source for this is Gulyas04, Lee10! So this kinda answers point 4: the primary input to CCK cells in CA1 is CA3 inputs. 
+This is true and helps us. 
+Previous theory had 2 legs: DSE from CA3→CA1 & DSI from CA1-CCK → CA1-pyr.
+Problems w/ 1st leg are that DSE not as intense (R1p5, R2p1)
+Problems w/ 2nd leg are that there is little evidence of CA1-pyr→CA1-CCK connection
+Answer to 1st leg: (1) Ruelle12 sources propping up DSE 
+Answer to 2nd leg: (1) while there is negative evidence of Lee14, other sources say that CA1-CCK hs dendrites where CA1 collateralls are (Gulyas04, Lee10). (2) most have dendrites where CA3 SC axons are. Due to DSE this would have same effect. 
+Rewrite paragraph
